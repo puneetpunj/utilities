@@ -1,0 +1,3 @@
+aws lambda update-function-code --function-name automatedtests --zip-file fileb://tests.zip --region ap-southeast-2 
+
+aws lambda invoke --function-name automatedtests --region ap-southeast-2 output.txt
